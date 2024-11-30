@@ -1,0 +1,71 @@
+.create-post {
+    margin-top: 58px;
+    border-bottom: 1px solid ;
+}
+
+.post-head-textarea {
+  color: white;
+  border: 1px solid #0B4B54; /* Default border color */
+}
+
+.post-head-textarea:focus {
+  border-color: #2A777C;
+}
+
+.btn-head-post {
+    padding: 8px 12px;
+    background-color: #2A777C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.btn-head-post:hover {
+  background-color: white;
+  color: black;
+}
+
+
+.media-emoji-container {
+    position: relative; /* Set relative positioning to the container */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: -5px 15px 10px 10px;
+  }
+  
+  .emoji-picker {
+    position: absolute;
+    top: 30px; /* Adjust to position the picker right below the icon */
+    z-index: 1000; /* Ensure it's on top of other content */
+  }
+
+  /* Assuming you have a CSS file for your component */
+
+.media-emoji-container {
+    position: relative; /* Ensure the container is positioned relatively */
+  }
+  
+.emoji-picker {
+    bottom: 100%; /* Position the picker above the button */
+    left: 0;
+    top: 55px;
+    transform: translateY(-10px); /* Adjust to provide spacing */
+    z-index: 1000; /* Ensure it's on top of other content */
+  }
+
+
+.left-btn{
+    padding-top: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn-head-post {
+    padding-top: -10px;
+  }
+
+  
+  

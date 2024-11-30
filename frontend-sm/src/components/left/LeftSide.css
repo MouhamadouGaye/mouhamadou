@@ -1,0 +1,58 @@
+.left {
+  grid-area: left;
+  padding: 20px;
+  overflow-y: auto;
+  margin-top: 81px;
+  margin-right: 0;
+}
+
+.left-menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: none;
+}
+
+.left-menu-item {
+  margin-bottom: 15px;
+}
+.left-menu-item a {
+  background-color: transparent;
+  font-size: larger;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+.left-menu-item a span {
+  background-color: transparent;
+}
+
+.left-menu-link {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  padding: 10px;
+  display: block;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.left-menu-link:hover {
+  background-color: #82acab93;
+}
+.left .create-post-button {
+  width: 150px;
+  height: 35px;
+  font-size: large;
+  border-radius: 20px;
+  color: #0d94a5;
+}
+.left .create-post-button:hover {
+  background-color: rgba(255, 255, 255, 0.731);
+  color: #0b4b54;
+}
+.item-name {
+  color: #c9c5c5;
+}
